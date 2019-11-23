@@ -54,10 +54,9 @@ body{
     height: auto;
 }
 #Imagem.col-lg-3{
-    max-width: 100%;
+    max-width: 40%;
     height: 70%;
     position: inherit;
-    padding-top: 4%;
 
 }
 .text{
