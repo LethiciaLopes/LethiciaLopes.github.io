@@ -525,7 +525,7 @@ button, input{
     content: ' ';
     display: block;
     width: 6px;
-    height: 80vh;
+    height: 88vh;
     margin-left: -3px;
     background:#346BB2;
     background: -moz-linear-gradient(top, #346BB2 0%, #E1C327 8%, #E1C327 92%, #346BB2 100%);
