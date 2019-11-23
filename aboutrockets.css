@@ -523,7 +523,7 @@ button, input{
     content: ' ';
     display: block;
     width: 6px;
-    height: 109vh;
+    height: 120vh;
     margin-left: -3px;
     background:#ba0c2f;
     background: -moz-linear-gradient(top, #ba0c2f 0%, #000000 8%, #000000 92%, #ba0c2f 100%);
