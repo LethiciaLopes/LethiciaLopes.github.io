@@ -1,0 +1,237 @@
+@import url("https://use.typekit.net/rwv2tht.css");
+
+@media only screen and (min-width: 992px) {
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'bungee', sans-serif;
+}
+body{
+    margin: 0%;
+    padding: 0%;
+    font-size: 20px;
+}
+
+#logotype{
+    width: 50%;
+    padding:0.3%;
+    height: 5%;
+    cursor: pointer;
+}
+
+.navbar-nav.dropdown-menu{
+    margin-left: 6vh;
+}
+.navbar{
+    width: 100%;
+    height: 10%;
+    box-shadow: 0 0 10px #860038;
+    overflow: visible;
+    display: flex;
+}
+.dropdown-item{
+    color:#860038 ;
+}
+.dropdown-item:hover{
+    color:#DD6827 ;
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: #860038;
+}
+.navbar-light .navbar-nav .nav-link {
+   color:#860038 ; 
+   padding-left: 5rem;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color:#DD6827 ; 
+ }
+.navbar-nav .nav-link {
+    color: #860038;
+}
+.container{
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+.navbar-nav.dropdown-menu{
+    margin-left: 6vh;
+}
+.col-lg-1{
+    visibility: hidden;
+}
+
+.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4); 
+  }
+  
+  h1.col-sm{
+    display: none; 
+ }
+  .modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; 
+    padding: 20px;
+    padding-left: 25%;
+    border: none;
+    width: 80%; 
+  }
+  img#Imagem.col-lg.col-sm{
+      max-width: 120vh;
+      margin-left: 37vh;
+  }
+  img#Gif.col-lg.col-sm{
+display: none;}
+  .close {
+    color: #DD6827;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #DD6827;
+    text-decoration: none;
+    cursor: pointer;
+  }
+#next{
+    visibility: hidden;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 576px) {
+    @import url("https://use.typekit.net/rwv2tht.css");
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'bungee', sans-serif;
+}
+body{
+    margin: 0%;
+    padding: 0%;
+    font-size: 10px;
+    background-color: #f0b020;
+}
+.menu{
+    width: 100%;
+}
+#myBtn{
+    visibility: hidden;
+}
+#logotype{
+    width: 25%;
+    padding:0.3%;
+    height: 5%;
+    cursor: pointer;
+}
+
+.navbar-light .navbar-toggler {
+    border: none;
+    padding: 0;
+}
+.navbar-light .navbar-toggler-icon {
+    background-image: url(htmlcorreto/menuiconn.png)
+}
+#changeteam{
+    margin: 0%;
+    padding:0;
+    width: 80%;
+    height: 7%;
+    cursor: pointer;
+}
+.navbar{
+    max-width: 100%;
+    height: 10%;
+    box-shadow: 0 0 10px #860038;
+    overflow: visible;
+    display: flex;
+    justify-content: space-between;
+}
+.dropdown-item{
+    color:#860038 ;
+}
+.dropdown-item:hover{
+    color:#DD6827 ;
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: #860038;
+}
+.navbar-light .navbar-nav .nav-link {
+   color:#860038 ; 
+   padding-left: 5rem;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color:#DD6827 ; 
+ }
+.navbar-nav .nav-link {
+    color: #860038;
+}
+.container{
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+
+.dropdown-item{
+    font-size:50% ;
+    padding: 2%;
+    text-align: end;
+}
+
+.nav-link{
+    text-align: end;
+    padding: 2%;
+}
+button, input{
+    margin: 1%;
+    overflow: visible;
+}
+#Pesquisa{
+    border-color:lightsalmon;
+    border-style: double;
+    font-family: 'Arial', 'sans-serif';  
+}
+img#Imagem.col-lg.col-sm{
+display: none;}
+img#Gif.col-lg.col-sm{
+    margin-top: 16vh;
+}
+h1.col-sm{
+    color:#860038;
+    width:100% ;
+    text-align: center;
+    padding-top: 4vh;
+    margin: 0;
+    align-items: center;
+    font-size: 3vh;  
+    line-height: 4vh;
+}
+}
+
+
+
+
