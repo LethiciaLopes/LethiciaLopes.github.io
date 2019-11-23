@@ -1,0 +1,275 @@
+@import url("https://use.typekit.net/rwv2tht.css");
+
+@media only screen and (min-width: 992px) {
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'bungee', sans-serif;
+}
+body{
+    margin: 0%;
+    padding: 0%;
+    font-size: 20px;
+}
+
+#logotype{
+    width: 50%;
+    padding:0.3%;
+    height: 5%;
+    cursor: pointer;
+}
+
+.navbar-nav.dropdown-menu{
+    margin-left: 6vh;
+}
+.navbar{
+    width: 100%;
+    height: 10%;
+    box-shadow: 0 0 10px #161616;
+    overflow: visible;
+    display: flex;
+}
+.dropdown-item{
+    color:#000000 ;
+}
+.dropdown-item:hover{
+    color:#DD6827 ;
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: #000000;
+}
+.navbar-light .navbar-nav .nav-link {
+   color:#000000 ; 
+   padding-left: 5rem;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color:#DD6827 ; 
+ }
+.navbar-nav .nav-link {
+    color: #000000;
+}
+.container{
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+
+
+.col-lg-1{
+    visibility: hidden;
+}
+
+
+#next{
+    visibility: hidden;
+}
+/*carousel*/
+.b-0 {
+    bottom: 0;
+}
+.bg-shadow {
+    background: rgba(76, 76, 76, 0);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(179, 171, 171, 0)), color-stop(49%, rgba(48, 48, 48, 0.37)), color-stop(100%, rgba(19, 19, 19, 0.8)));
+    background: linear-gradient(to bottom, rgba(179, 171, 171, 0) 0%, rgba(48, 48, 48, 0.71) 49%, rgba(19, 19, 19, 0.8) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', endColorstr='#131313', GradientType=0 );
+}
+.top-indicator {
+    right: 0;
+    top: 1rem;
+    bottom: inherit;
+    left: inherit;
+    margin-right: 1rem;
+}
+.overflow {
+    position: relative;
+    overflow: hidden;
+}
+.zoom img {
+    transition: all 0.2s linear;
+}
+.zoom:hover img {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.badge-primary{
+    font-family: 'montserrat', sans-serif;
+    background-color: #000000;
+}
+.news-date{
+    font-family: 'montserrat', sans-serif;
+}
+.news-author{
+    font-family: 'montserrat', sans-serif;
+}
+.text-white{
+    font-family: 'montserrat', sans-serif;
+    color:#fefefe ;
+    font-weight: bold;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 576px) {
+    @import url("https://use.typekit.net/rwv2tht.css");
+    *{
+        margin: 0%;
+        padding: 0%;
+        font-family: 'bungee', sans-serif;
+    }
+    body{
+        margin: 0%;
+        padding: 0%;
+        font-size: 10px;
+    }
+    .menu{
+        width: 100%;
+    }
+    #myBtn{
+        visibility: hidden;
+    }
+    #logotype{
+        width: 25%;
+        padding:0.3%;
+        height: 5%;
+        cursor: pointer;
+    }
+
+    #changeteam{
+        margin: 0%;
+        padding:0;
+        width: 80%;
+        height: 7%;
+        cursor: pointer;
+    }
+ 
+    .container{
+        display: flex;
+        width: 100%;
+        height: auto;
+    }
+   
+    .navbar-light .navbar-toggler {
+        border: none;
+        padding: 0;
+    }
+    .navbar-light .navbar-toggler-icon {
+        background-image: url(htmlcorreto/menuiconn.png)
+    }
+    .navbar{
+        max-width: 100%;
+        height: 10%;
+        box-shadow: 0 0 10px #161616;
+        overflow: visible;
+        display: flex;
+        justify-content: space-between;
+    }
+    .dropdown-item{
+        color:#000000 ;
+    }
+    .dropdown-item:hover{
+        color:#DD6827 ;
+    }
+    .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+        color: #000000;
+    }
+    .navbar-light .navbar-nav .nav-link {
+       color:#000000 ; 
+       padding-left: 5rem;
+    }
+    .navbar-light .navbar-nav .nav-link:hover {
+        color:#DD6827 ; 
+     }
+    .navbar-nav .nav-link {
+        color: #000000;
+    }
+    .dropdown-item{
+        font-size:50% ;
+        padding: 2%;
+        text-align: end;
+    }
+    .nav-link{
+        text-align: end;
+        padding: 2%;
+    }    
+
+    button, input{
+        margin: 1%;
+        overflow: visible;
+    }
+    #Pesquisa{
+        border-color:lightsalmon;
+        border-style: double;
+        font-family: 'Arial', 'sans-serif';  
+    }
+    /*carousel*/
+.b-0 {
+    bottom: 0;
+}
+.bg-shadow {
+    background: rgba(76, 76, 76, 0);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(179, 171, 171, 0)), color-stop(49%, rgba(48, 48, 48, 0.37)), color-stop(100%, rgba(19, 19, 19, 0.8)));
+    background: linear-gradient(to bottom, rgba(179, 171, 171, 0) 0%, rgba(48, 48, 48, 0.71) 49%, rgba(19, 19, 19, 0.8) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', endColorstr='#131313', GradientType=0 );
+}
+.top-indicator {
+    right: 0;
+    top: 1rem;
+    bottom: inherit;
+    left: inherit;
+    margin-right: 1rem;
+}
+.badge-primary{
+    background-color: #000000;
+}
+.overflow {
+    position: relative;
+    overflow: hidden;
+}
+.zoom img {
+    transition: all 0.2s linear;
+}
+.zoom:hover img {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.badge-primary{
+    font-family: 'montserrat',sans-serif;
+}
+.news-date{
+    font-family: 'montserrat', sans-serif;
+}
+.col-6{
+    flex: none;
+    max-width: none;
+}
+.news-author{
+    font-family: 'montserrat';
+}
+.text-white{
+    font-family: 'montserrat';
+    color:#fefefe ;
+    font-weight: bold;
+    font-size: 3vh;
+    font-family: 'montserrat', sans-serif;
+    font-weight: bold;
+}
+.badge-primary{
+    background-color: #000000;
+}
+h1{
+    display: none;
+}
+    }

@@ -12,7 +12,9 @@ body{
     font-size: 20px;
     background-color: #346BB2;
 }
-
+.navbar-nav.dropdown-menu{
+  margin-left: 6vh;
+}
 #logotype{
     width: 50%;
     padding:0.3%;

@@ -11,7 +11,9 @@ body{
     padding: 0%;
     font-size: 20px;
 }
-
+.navbar-nav.dropdown-menu{
+    margin-left: 6vh;
+}
 #logotype{
     width: 50%;
     padding:0.3%;
