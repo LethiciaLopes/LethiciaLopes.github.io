@@ -80,7 +80,7 @@ div.dropdown-menu.show{
   content: ' ';
   display: block;
   width: 6px;
-  height: 90vh;
+  height: 114vh;
   margin-left: -3px;
   background:#000000;
   background: -moz-linear-gradient(top, #000000 0%, #ffffff 8%, #ffffff 92%, #000000 100%);
@@ -523,7 +523,7 @@ button, input{
     content: ' ';
     display: block;
     width: 6px;
-    height: 120vh;
+    height: 132vh;
     margin-left: -3px;
     background:#000000;
     background: -moz-linear-gradient(top, #000000 0%, #ffffff 8%, #ffffff 92%, #000000 100%);
